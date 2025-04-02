@@ -1,0 +1,162 @@
+@charset "UTF-8";
+body {
+    background-color: #183b77;
+    margin: 0 auto;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    min-width: 780px;
+    text-align: center;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, Verdana, Arial, sans-serif, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; 
+    font-size: 0.8em;
+}
+
+#headID {
+    background-image: url(../image/bg_body.gif);
+    background-repeat: repeat-x;
+    min-height: 258px;
+}
+
+#TOPheadID {
+    background-image: url(../image/bg_top-body.gif);
+    background-repeat: repeat-x;
+    min-height: 432px;
+}
+
+.headlogo{
+    margin: 0 auto;
+    padding: 7px 0 0 0;
+    width: 770px;
+    height: 77px;
+}
+
+.headlogo .left{
+    display: inline-block;
+    text-align: left;
+    width: 450px;
+}
+
+.headlogo .right{
+    display: inline-block;
+    text-align: right;
+}
+
+.headBUT {
+    text-align: center;
+}
+
+.headBUT img{
+    height: 32px;
+    padding: 0;
+}
+
+.subimg{
+    padding: 2px;
+}
+
+#TOPheadID .subimg{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: #ffffff;
+}
+
+section{
+    margin: 0 auto;
+    width: 760px;
+    padding: 10px;
+    text-align: justify;
+}
+
+div.infobox{
+	height: 20em;
+	overflow: auto;
+	border: 1px groove;
+	padding: 5px;
+}
+
+#secID .date{
+    font-weight: bold;
+    color: #547ab2;
+}
+
+#secID .redmark{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+div.infobox a{
+    font-weight: normal;
+}
+
+#artID{
+    padding: 10px;
+}
+
+section .jumpBUT{
+    text-align: right;
+}
+
+footer{
+    background-image: url(../image/bg_footer.gif);
+    background-repeat: repeat-x;
+    min-height: 104px;
+    color: #FFFFFF;
+}
+
+#footBUT{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyR{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link{
+    color: #003366;
+}
+
+a:visited{
+    color: #003366;
+}
+
+a:hover{
+    color: #FF9900;
+}
+
+a:active{
+    color: #FF9900;
+}
+
+#artID .line{
+    position: relative;
+    top: -10px;
+}
+
+#artID a{
+    color: #547AB2;
+    font-weight: bold;
+}
+
+#artID a:hover{
+    color: #FF9900;
+}
+
+#footBUT a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#footBUT a:hover{
+    text-decoration: underline;
+}

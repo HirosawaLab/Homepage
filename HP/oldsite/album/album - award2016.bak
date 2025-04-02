@@ -1,0 +1,279 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=Shift_JIS">
+<meta name="description" content="横浜国立大学、廣澤研究室のホームページです。">
+<meta name="keywords" content="金属,アルミ,アルミニウム,metal,aluminum,aluminium,廣澤,廣澤研,横浜国立大学">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.8.0 for Windows">
+<title>アルバム｜廣澤研HP</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/x-icon" href="http://favigen.com/download_favicon.php?img=YNU2">
+<link rel="shortcut icon" href="http://favigen.com/download_favicon.php?img=YNU2" type="image/x-icon">
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+//  Licensed Materials - Property of IBM
+//  5724I83
+//  (C) Copyright IBM Corp. 1995, 2007 All Rights Reserved.
+//
+
+// HpbImgPreload:
+//
+function HpbImgPreload()
+{
+var appVer=parseInt(navigator.appVersion);
+var isNC=false,isN6=false,isIE=false;
+if (document.all && appVer >= 4) isIE=true; else
+if (document.getElementById && appVer > 4) isN6=true; else
+if (document.layers && appVer >= 4) isNC=true;
+if (isNC||isN6||isIE)
+{
+if (document.images)
+{
+var imgName = HpbImgPreload.arguments[0];
+var cnt;
+swImg[imgName] = new Array;
+for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+{
+swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+}
+}
+}
+}
+// HpbImgFind:
+//
+function HpbImgFind(doc, imgName)
+{
+for (var i=0; i < doc.layers.length; i++)
+{
+var img = doc.layers[i].document.images[imgName];
+if (!img) img = HpbImgFind(doc.layers[i], imgName);
+if (img) return img;
+}
+return null;
+}
+// HpbImgSwap:
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+var appVer=parseInt(navigator.appVersion);
+var isNC=false,isN6=false,isIE=false;
+if (document.all && appVer >= 4) isIE=true; else
+if (document.getElementById && appVer > 4) isN6=true; else
+if (document.layers && appVer >= 4) isNC=true;
+if (isNC||isN6||isIE)
+{
+if (document.images)
+{
+var img = document.images[imgName];
+if (!img) img = HpbImgFind(document, imgName);
+if (img) img.src = imgSrc;
+}
+}
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT>
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER1', 'but_home_off.png', 'but_home_on.png');
+HpbImgPreload('_HPB_ROLLOVER2', 'but_work_off.gif', 'but_work_on.gif');
+HpbImgPreload('_HPB_ROLLOVER3', 'but_study_off.gif', 'but_study_on.gif');
+HpbImgPreload('_HPB_ROLLOVER4', 'but_member_off.gif', 'but_member_on.gif');
+HpbImgPreload('_HPB_ROLLOVER5', 'but_album_off.png', 'but_album_on.png');
+HpbImgPreload('_HPB_ROLLOVER6', 'but_access_off.png', 'but_access_on.png');
+HpbImgPreload('_HPB_ROLLOVER7', 'but_english_off.gif', 'but_english_on.gif');
+//-->
+</SCRIPT>
+<style type="text/css">
+<!--
+	img {
+	border : 0px;
+}
+-->
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+<div align="center" id="pagetop">
+
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="image/spacer.gif" width="1" height="4" alt=""></td>
+</tr>
+<tr>
+<td>
+<table width="760" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="7"><img src="image/spacer.gif" width="7" height="80" alt=""></td>
+        <td valign="top" width="79">&nbsp;<a href="http://www.ynu.ac.jp/index.html" target="_blank"><img src="image/YNU_logo21.gif" border="0" width="72" height="70"></a></td>
+        <td valign="top" width="669">
+        <table border="0" cellspacing="0" cellpadding="0">
+<tr>
+            <td width="331"><img src="image/spacer.gif" width="1" height="32" alt=""><a href="../index.html"><img src="image/hirosawalab.png" width="190" height="70"></a></td>
+            <td width="330"><a href="http://www.ynu.ac.jp/index.html" target="_blank"><br>
+            <img src="image/RGB_2C_4.gif" border="0" width="309" height="58"></a>&nbsp;&nbsp;</td>
+          </tr>
+<tr>
+            <td align="right" valign="top" width="661" colspan="2"></td>
+          </tr>
+</table>
+        </td>
+        <td width="2"><img src="image/spacer.gif" width="2" height="80" alt=""></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="image/spacer.gif" width="1" height="1" alt=""></td>
+<td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+<td><a href="../index.html" id="_HPB_ROLLOVER1" onmouseout="HpbImgSwap('_HPB_ROLLOVER1', 'image/but_home_off.png');" onmouseover="HpbImgSwap('_HPB_ROLLOVER1', 'image/but_home_on.png');"><img src="image/but_home_off.png" width="109" height="32" alt="ホーム" border="0" name="_HPB_ROLLOVER1"></a></td>
+<td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+<td><a href="../work.html" id="_HPB_ROLLOVER2" onmouseout="HpbImgSwap('_HPB_ROLLOVER2', 'image/but_work_off.png');" onmouseover="HpbImgSwap('_HPB_ROLLOVER2', 'image/but_work_on.png');"><img src="image/but_work_off.png" width="107" height="32" alt="研究紹介" border="0" name="_HPB_ROLLOVER2"></a></td>
+<td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+<td><a href="../study.html" id="_HPB_ROLLOVER3" onmouseout="HpbImgSwap('_HPB_ROLLOVER3', 'image/but_study_off.png');" onmouseover="HpbImgSwap('_HPB_ROLLOVER3', 'image/but_study_on.png');"><img src="image/but_study_off.png" width="107" height="32" alt="研究業績" border="0" name="_HPB_ROLLOVER3"></a></td>
+<td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+<td><a href="../member.html" id="_HPB_ROLLOVER4" onmouseout="HpbImgSwap('_HPB_ROLLOVER4', 'image/but_member_off.png');" onmouseover="HpbImgSwap('_HPB_ROLLOVER4', 'image/but_member_on.png');"><img src="image/but_member_off.png" width="107" height="32" alt="メンバー" border="0" name="_HPB_ROLLOVER4"></a></td>
+<td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+<td><a href="../album.html" id="_HPB_ROLLOVER5" onmouseout="HpbImgSwap('_HPB_ROLLOVER5', 'image/but_album_off.png');" onmouseover="HpbImgSwap('_HPB_ROLLOVER5', 'image/but_album_on.png');"><img src="image/but_album_off.png" width="107" height="32" alt="アルバム" border="0" name="_HPB_ROLLOVER5"></a></td>
+<td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+<td><a href="../access.html" id="_HPB_ROLLOVER6" onmouseout="HpbImgSwap('_HPB_ROLLOVER6', 'image/but_access_off.png');" onmouseover="HpbImgSwap('_HPB_ROLLOVER6', 'image/but_access_on.png');"><img src="image/but_access_off.png" width="109" height="32" alt="アクセス" border="0" name="_HPB_ROLLOVER6"></a></td>
+<td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+<td><a href="../news/english.html" id="_HPB_ROLLOVER7" onmouseout="HpbImgSwap('_HPB_ROLLOVER7', 'image/but_english_off.png');" onmouseover="HpbImgSwap('_HPB_ROLLOVER7', 'image/but_english_on.png');"><img src="image/but_english_off.png" width="107" height="32" alt="English" border="0" name="_HPB_ROLLOVER7"></a></td>
+<td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+<td><img src="image/spacer.gif" width="1" height="1" alt=""></td>
+</tr>
+</table>
+
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="3"><img src="image/spacer.gif" width="1" height="5" alt=""></td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><img src="image/spacer.gif" width="2" height="1" alt=""></td>
+<td valign="top">
+<table width="760" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="image/spacer.gif" width="1" height="5" alt=""></td>
+</tr>
+<tr>
+<td><img src="image/subimage.jpg" width="760" height="120" alt="学校イメージ"></td>
+</tr>
+</table>
+</td>
+<td bgcolor="#FFFFFF"><img src="image/spacer.gif" width="2" height="1" alt=""></td>
+</tr>
+<tr>
+<td colspan="3"><img src="image/spacer.gif" width="1" height="22" alt=""></td>
+</tr>
+</table>
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="image/spacer.gif" width="2" height="1" alt=""></td>
+    <td width="760" valign="top">
+<table width="760" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="image/ba_album1.png" border="0" width="760" height="34"></td>
+</tr>
+<tr>
+<td><img src="image/spacer.gif" width="1" height="15" alt=""></td>
+</tr><tr>
+        <td><a href="../album.html">アルバム</a>&nbsp;<img src="image/allow.png" width="16" height="10" alt="">&nbsp;平成27年度受賞</td>
+      </tr><tr>
+        <td>&nbsp;</td>
+      </tr><tr>
+<td>
+<table width="510" border="0" cellspacing="0" cellpadding="0">
+<tr>
+            <td valign="top">
+<table width="180" border="0" cellspacing="0" cellpadding="0">
+              <tbody><tr>
+                  <td align="center" valign="top">
+                <div align="left">
+                  <div align="left"></div>
+                  &nbsp;
+                  <table border="0" cellpadding="5" cellspacing="5">
+                    <tbody>
+    <tr>
+      <td align="center" valign="middle" width="128" height="85"><a href="image/2016.3.24/award/03.jpg" target="_blank"><img src="image/2016.3.24/award/03_thumb.jpg" width="128" height="85" border="1"></a></td>
+      <td align="center" valign="middle" width="128" height="85"><a href="image/2016.3.24/award/02.jpg" target="_blank"><img src="image/2016.3.24/award/02_thumb.jpg" width="128" height="85" border="1"></a></td>
+      <td align="center" valign="middle" width="128" height="181"><a href="image/2016.3.24/award/01.jpg" target="_blank"><img src="image/2016.3.24/award/01_thumb.jpg" width="90" height="127" border="1"></a></td>
+
+
+                  </tbody>
+                  </table>
+                      </div>
+                      </td>
+                </tr>
+                  </tbody>
+            </table>
+            </td>
+              </tr></table>
+</td>
+          </tr></table>
+</td>
+<td><img src="image/spacer.gif" width="2" height="1" alt=""></td>
+</tr><tr>
+    <td>&nbsp;</td>
+    <td valign="top"><br>
+    理工学部 機械工学材料系学科 笠間亮太さん<br>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr><tr>
+    <td>&nbsp;</td>
+    <td valign="top">&nbsp;平成28年3月24日(木)の理工学部機械工学・材料系学科材料工学教育プログラム卒業者学位記授与式において、学部4年の笠間亮太さん
+    （指導教員 廣澤渉一教授）が「第24回日本金属学会・日本鉄鋼協会奨学賞」を受賞しました。本賞は、材料分野の発展の貢献が期待できる多くの優秀な学生を幅広く奨励するため設けられ、
+    全国の大学学部4年生、及び高等專門学校専攻科2年生の中から、人格・学業ともに優秀な学生の一人として受賞となりました。</td>
+    <td>&nbsp;</td>
+
+
+  </tr></table>
+
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="2"><img src="image/spacer.gif" width="2" height="1" alt=""></td>
+<td>
+<table width="760" border="0" cellspacing="0" cellpadding="0">
+<tr>
+        <td colspan="5"><img src="image/line_00.gif" width="760" height="1" alt=""></td>
+      </tr><tr>
+<td><img src="image/spacer.gif" width="1" height="30" alt=""></td>
+</tr>
+<tr>
+<td align="right"><img src="image/p_arrow_02.gif" width="9" height="5" alt="">&nbsp;<a href="#pagetop">このページのトップへ</a></td>
+</tr>
+<tr>
+<td><img src="image/spacer.gif" width="1" height="15" alt=""></td>
+</tr>
+</table>
+</td>
+<td width="2"><img src="image/spacer.gif" width="2" height="1" alt=""></td>
+</tr>
+</table>
+
+<div id="footer">
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="2"><img src="image/spacer.gif" width="2" height="30" alt=""></td>
+<td width="760" align="center"><font color="#FFFFFF">｜  <a href="../index.html" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration=''">ホーム</a>  ｜  <a href="../work.html" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration=''">研究紹介</a>  ｜  <a href="../study.html" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration=''">研究業績</a>  ｜  <a href="../member.html" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration=''">メンバー</a>  ｜  <a href="../album.html" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration=''">アルバム</a>  ｜  <a href="../access.html" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration=''">アクセス</a>  ｜  <a href="../news/english.html" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration=''">English</a>  ｜</font></td>
+<td width="2"><img src="image/spacer.gif" width="2" height="30" alt=""></td>
+</tr>
+<tr>
+<td colspan="3"><img src="image/spacer.gif" width="1" height="8" alt=""></td>
+</tr>
+<tr>
+<td width="2"><img src="image/spacer.gif" width="2" height="66" alt=""></td>
+<td width="760" align="center" valign="top"><font color="#FFFFFF">Copyright&copy; 2012 Hirosawa Lab. All Rights Reserved.</font></td>
+<td width="2"><img src="image/spacer.gif" width="2" height="66" alt=""></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>

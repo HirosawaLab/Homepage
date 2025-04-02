@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>Easy CSS Tooltip - by Kollermedia.at</title>
+
+<style type="text/css">
+<!--
+/* Easy CSS Tooltip - by Koller Juergen [www.kollermedia.at] */
+* {
+	font-family:Verdana, Arial, Helvetica, sans-serif; font-size:16px;
+}
+a:hover {
+	background:#e6e6fa; 
+	text-decoration:none; 
+	position:relative;
+	 text-align: left;
+} /*BG color is a must for IE6*/
+a.tooltip span {
+	display:none;
+	padding:15px 0px 15px 0px;
+	bottom:45px;
+	left:-240px; 
+	width:495px;
+		}
+a.tooltip:hover span{
+		display:inline; 
+		border-top:8px solid #191970; 
+		border-left:8px solid transparent; 
+		border-right:8px solid transparent;
+		position:absolute; 
+		border:1px solid #cccccc; 
+		background:#191970; 
+		color:#ffffff;
+}
+-->
+a.tooltip:hover span:after {
+	content: "";
+	display: block;
+	width:0;
+	height:0;
+	border-top:10px solid #191970;
+	border-left:10px solid transparent;
+	border-right:10px solid transparent;
+	position: absolute;
+	left: 250px;
+	bottom:-10px;
+}
+-->
+</style>
+
+</head>
+<body>
+Easy <a href="#" class="tooltip">Tooltip<span>This is the crazy little Easy Tooltip Text.</span></a>.
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+	margin: 0 0 0 0; 
+	padding: 0; 
+	font-size: 100%; 
+	font-family: "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", Osaka, Verdana, Arial, sans-serif, "ÉÅÉCÉäÉI", Meiryo, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif; 
+	color: #000000;
+	background: #183b77;
+}
+
+#wrapper {
+	background: url(../image/bg_footer.gif) bottom repeat-x #FFFFFF;
+}
+
+#top-pagetop {
+	background: url(../image/bg_top-body.gif) top repeat-x;
+}
+
+#pagetop {
+	background: url(../image/bg_body.gif) top repeat-x;
+}
+
+a:link {
+	color: #003366;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #003366;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #FF9900;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #FF9900;
+	text-decoration: none;
+}
+
+td,th {
+	font-size: 0.8em;
+}
+
+#sitetitle {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#sitetitle a {
+	text-decoration: none;
+	color: #1B51A1;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #FFFFFF;
+}

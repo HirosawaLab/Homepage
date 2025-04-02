@@ -1,0 +1,952 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="description" content="横浜国立大学、廣澤研究室のホームページです。">
+<meta name="keywords" content="金属,アルミ,アルミニウム,metal,aluminum,aluminium,廣澤,廣澤研,横浜国立大学,hirosawa,yokohama national university">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 14.0.8.0 for Windows">
+<title>廣澤研究室HP</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/x-icon" href="http://favigen.com/download_favicon.php?img=YNU2">
+<link rel="shortcut icon" href="http://favigen.com/download_favicon.php?img=YNU2" type="image/x-icon">
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+//  Licensed Materials - Property of IBM
+//  5724I83
+//  (C) Copyright IBM Corp. 1995, 2007 All Rights Reserved.
+//
+
+// HpbImgPreload:
+//
+function HpbImgPreload()
+{
+var appVer=parseInt(navigator.appVersion);
+var isNC=false,isN6=false,isIE=false;
+if (document.all && appVer >= 4) isIE=true; else
+if (document.getElementById && appVer > 4) isN6=true; else
+if (document.layers && appVer >= 4) isNC=true;
+if (isNC||isN6||isIE)
+{
+if (document.images)
+{
+var imgName = HpbImgPreload.arguments[0];
+var cnt;
+swImg[imgName] = new Array;
+for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+{
+swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+}
+}
+}
+}
+// HpbImgFind:
+//
+function HpbImgFind(doc, imgName)
+{
+for (var i=0; i < doc.layers.length; i++)
+{
+var img = doc.layers[i].document.images[imgName];
+if (!img) img = HpbImgFind(doc.layers[i], imgName);
+if (img) return img;
+}
+return null;
+}
+// HpbImgSwap:
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+var appVer=parseInt(navigator.appVersion);
+var isNC=false,isN6=false,isIE=false;
+if (document.all && appVer >= 4) isIE=true; else
+if (document.getElementById && appVer > 4) isN6=true; else
+if (document.layers && appVer >= 4) isNC=true;
+if (isNC||isN6||isIE)
+{
+if (document.images)
+{
+var img = document.images[imgName];
+if (!img) img = HpbImgFind(document, imgName);
+if (img) img.src = imgSrc;
+}
+}
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT>
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER1', 'but_home_off.png', 'but_home_on.png');
+HpbImgPreload('_HPB_ROLLOVER2', 'but_work_off.gif', 'but_work_on.gif');
+HpbImgPreload('_HPB_ROLLOVER3', 'but_study_off.gif', 'but_study_on.gif');
+HpbImgPreload('_HPB_ROLLOVER4', 'but_member_off.gif', 'but_member_on.gif');
+HpbImgPreload('_HPB_ROLLOVER5', 'but_album_off.png', 'but_album_on.png');
+HpbImgPreload('_HPB_ROLLOVER6', 'but_access_off.png', 'but_access_on.png');
+HpbImgPreload('_HPB_ROLLOVER7', 'but_english_off.gif', 'but_english_on.gif');
+//-->
+</SCRIPT>
+<style type="text/css">
+<!--
+	img {
+	border : 0px;
+}
+-->
+p.infobox{
+	height: 20em;
+	overflow: auto;
+	border: 1px groove;
+	padding: 5;
+}
+-->
+</style>
+</head>
+<body>
+<div id="wrapper">
+<div align="center" id="top-pagetop">
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="image/spacer.gif" width="1" height="4" alt=""></td>
+  </tr><tr>
+    <td>
+    <table width="760" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="7"><img src="image/spacer.gif" width="7" height="80" alt=""></td>
+        <td valign="top" width="79">&nbsp;<a href="http://www.ynu.ac.jp/index.html" target="_blank"><img src="image/YNU_logo21.gif" border="0" width="72" height="70"></a></td>
+        <td valign="top" width="669">
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="331"><img src="image/spacer.gif" width="1" height="32" alt=""><a href="index.html"><img src="image/hirosawalab.png" width="190" height="70"></a></td>
+            <td align="right" width="330"><a href="http://www.ynu.ac.jp/index.html" target="_blank"><br>
+            <img src="image/RGB_2C_4.gif" border="0" width="309" height="58"></a>&nbsp;&nbsp;</td>
+          </tr><tr>
+            <td align="right" valign="top" width="661" colspan="2"></td>
+          </tr></table>
+        </td>
+        <td width="2"><img src="image/spacer.gif" width="2" height="80" alt=""></td>
+      </tr></table>
+    </td>
+  </tr></table>
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="image/spacer.gif" width="1" height="1" alt=""></td>
+    <td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+    <td><a href="index.html" id="_HPB_ROLLOVER1" onmouseout="HpbImgSwap('_HPB_ROLLOVER1', 'image/but_home_off.png');" onmouseover="HpbImgSwap('_HPB_ROLLOVER1', 'image/but_home_on.png');"><img src="image/but_home_off.png" width="109" height="32" alt="ホーム" border="0" name="_HPB_ROLLOVER1"></a></td>
+    <td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+    <td><a href="work.html" id="_HPB_ROLLOVER2" onmouseout="HpbImgSwap('_HPB_ROLLOVER2', 'image/but_work_off.png');" onmouseover="HpbImgSwap('_HPB_ROLLOVER2', 'image/but_work_on.png');"><img src="image/but_work_off.png" width="107" height="32" alt="研究紹介" border="0" name="_HPB_ROLLOVER2"></a></td>
+    <td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+    <td><a href="study.html" id="_HPB_ROLLOVER3" onmouseout="HpbImgSwap('_HPB_ROLLOVER3', 'image/but_study_off.png');" onmouseover="HpbImgSwap('_HPB_ROLLOVER3', 'image/but_study_on.png');"><img src="image/but_study_off.png" width="107" height="32" alt="研究業績" border="0" name="_HPB_ROLLOVER3"></a></td>
+    <td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+    <td><a href="member.html" id="_HPB_ROLLOVER4" onmouseout="HpbImgSwap('_HPB_ROLLOVER4', 'image/but_member_off.png');" onmouseover="HpbImgSwap('_HPB_ROLLOVER4', 'image/but_member_on.png');"><img src="image/but_member_off.png" width="107" height="32" alt="メンバー" border="0" name="_HPB_ROLLOVER4"></a></td>
+    <td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+    <td><a href="album.html" id="_HPB_ROLLOVER5" onmouseout="HpbImgSwap('_HPB_ROLLOVER5', 'image/but_album_off.png');" onmouseover="HpbImgSwap('_HPB_ROLLOVER5', 'image/but_album_on.png');"><img src="image/but_album_off.png" width="107" height="32" alt="アルバム" border="0" name="_HPB_ROLLOVER5"></a></td>
+    <td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+    <td><a href="access.html" id="_HPB_ROLLOVER6" onmouseout="HpbImgSwap('_HPB_ROLLOVER6', 'image/but_access_off.png');" onmouseover="HpbImgSwap('_HPB_ROLLOVER6', 'image/but_access_on.png');"><img src="image/but_access_off.png" width="109" height="32" alt="アクセス" border="0" name="_HPB_ROLLOVER6"></a></td>
+    <td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+    <td><a href="news/english.html" id="_HPB_ROLLOVER7" onmouseout="HpbImgSwap('_HPB_ROLLOVER7', 'image/but_english_off.png');" onmouseover="HpbImgSwap('_HPB_ROLLOVER7', 'image/but_english_on.png');"><img src="image/but_english_off.png" width="107" height="32" alt="English" border="0" name="_HPB_ROLLOVER7"></a></td>
+    <td><img src="image/p_navi.gif" width="2" height="32" alt=""></td>
+    <td><img src="image/spacer.gif" width="1" height="1" alt=""></td>
+  </tr></table>
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="3"><img src="image/spacer.gif" width="1" height="5" alt=""></td>
+  </tr><tr>
+    <td bgcolor="#FFFFFF"><img src="image/spacer.gif" width="2
+" height="1" alt=""></td>
+    <td valign="top">
+    <table width="760" border="0" cellspacing="0" cellpadding="0">
+<tr>
+        <td><img src="image/spacer.gif" width="1" height="5" alt=""></td>
+      </tr><tr>
+        <td><script language="JavaScript">
+		    <!--
+		    var imgMax  = 2;
+		    var imgRand = Math.floor(Math.random() * imgMax);
+
+		    if(imgRand == 0)       document.write('<img src="image/toppage2020.3.24.jpg" width="782" height="500">');
+		    else if(imgRand == 1)  document.write('<img src="image/toppage2020.3.24.jpg" width="782" height="500">');
+		    //-->
+		</script></td>
+      </tr></table>
+    </td>
+    <td bgcolor="#FFFFFF"><img src="image/spacer.gif" width="2" height="1" alt=""></td>
+  </tr><tr>
+    <td colspan="3"><img src="image/spacer.gif" width="1" height="22" alt=""></td>
+  </tr></table>
+<table width="764" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="image/spacer.gif" width="2" height="1" alt=""></td>
+    <td width="760" valign="top">
+    <table width="760" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td colspan="3"><img src="image/ba_whatsnew1.png" border="0" width="860" height="34"></td>
+        <td>&nbsp;</td>
+      </tr><tr>
+        <td width="10"><img src="image/spacer.gif" width="10" height="1" alt=""></td>
+        <td width="860">
+        <p class="infobox">
+        <font color="#547ab2"><strong>2020.7.6</strong></font><br>
+        &nbsp;&nbsp;今年も<a href="https://www.rdsc.co.jp/seminar/200705">R&amp;D支援セミナー「アルミニウムおよびアルミニウム合金の基礎」( 於 東京　要参加申込 )</a>で講師を務めます (廣澤)<br>
+        &nbsp;<br>
+ 	<font color="#547ab2"><strong>2020.5.22-23</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.jilm.or.jp/uploads_content/2020/02/138pro.pdf">第138回軽金属学会春期大会（於 香川大）</a>で口頭発表します（廣澤、岩岡、増田）　<font color="#ff0000">開催中止<br>
+        </font>&nbsp;<br>
+ 	<font color="#547ab2"><strong>2020.5.20-22</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.jsae.or.jp/2020haru/program/docu/2020_jsae_spring_pre.pdf">自動車技術会2020年春季大会（於パシフィコ横浜)でオーガナイズドセッション「自動車軽量化のための革新的新構造材料開発」、フォーラム「自動車の大変革を担う材料技術の最新動向I（鉄鋼）II（軽金属・化成品）」</a>を開催します　<font color="#ff0000">開催中止<br>
+        </font>&nbsp;<br>
+ 	<font color="#547ab2"><strong>2020.4.24</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.ynu.ac.jp/hus/engk/23918/detail.html">教員公募情報</a>（准教授または教授　7月10日締切）<br>
+        &nbsp;<br>
+ 	<font color="#547ab2"><strong>2020.4.17</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.materep.ynu.ac.jp/archives/info/材料選択と適材適所">材料EP新入生向けWEB講義「材料学入門」のコラム</a>を執筆しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2020.4.14</strong></font><br>
+        &nbsp;&nbsp;WEBミーティングを介して研究室に新メンバーを迎えました（D1：許、B4：萱沼、須向、中村、野崎）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2020.3.24</strong></font><br>
+        &nbsp;&nbsp;研究室から新たな世界にはばたくメンバーを送り出しました(M2：牧、B4：服部、李) <br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2020.3.24</strong></font><br>
+        &nbsp;&nbsp;名教就美会同窓会賞 (B4：山根)を受賞しました<br>
+        &nbsp;<br>
+ 	<font color="#547ab2"><strong>2020.3.19</strong></font><br>
+        &nbsp;&nbsp;<a href="https://confit.atlas.jp/guide/event/jim2020spring/sessions/date/20200319?page=1">日本金属学会2020年春期講演大会（於 東工大）</a>で口頭発表します（増田、B4: 李）　<font color="#ff0000">開催中止</font><br>
+        &nbsp;<br>
+ 	<font color="#547ab2"><strong>2020.3.17-19</strong></font><br>
+        &nbsp;&nbsp;<a href="https://confit.atlas.jp/guide/event/jim2020spring/session/2D11-16/category">日本金属学会2020年春期講演大会（於 東工大）</a>で企画シンポジウム「工業製品における材料選択とマルチマテリアル構造～航空機機体～」を開催します　<font color="#ff0000">開催中止<br>
+        </font>&nbsp;<br>
+ 	<font color="#547ab2"><strong>2020.2.6</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.jilm.or.jp/symposium/view?id=28">軽金属セミナー「アルミニウム合金の組織－中級編（時効析出）」( 於 日本大学　要参加申込 )</a>で講師を務めました(廣澤)<br>
+        &nbsp;<br>
+ 	<font color="#547ab2"><strong>2019.12.30</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.sciencedirect.com/science/article/pii/S0927025619307785?dgcid=coauthor">Computational Materials Science誌に受理された学術論文</a>が公開されました<br>
+        &nbsp;<br>
+	<font color="#547ab2"><strong>2019.12.22</strong></font><br>
+        &nbsp;&nbsp;李君（B4）が<a href="http://gakuseichanbara.world.coocan.jp/agame2019.html">日本スポーツチャンバラ学生連盟第26回全日本学生大会</a>男子団体戦で３位入賞を果たしました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.11.29</strong></font><br>
+        &nbsp;&nbsp;<a href="http://magnesium.or.jp/_wp/wp-content/uploads/2019/07/2019非鉄金属産業講演・工場見学会.pdf">非鉄金属産業講演・工場見学会（於 日本アルミニウム協会）</a>で講師を務めました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.11.27</strong></font><br>
+        &nbsp;&nbsp;<a href="image/2019.11.27.pdf">YNU国際シンポジウム「ドクターへの誘い」（於 中央図書館メディアホール)</a>を開催しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.11.13-15</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.inalco2019.org/">14th International Aluminum Conference (INALCO2019)</a>で口頭発表し、Outstanding Young Professional Award Bronze Prizeを受賞しました（増田）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.11.7</strong></font><br>
+        &nbsp;&nbsp;<a href="https://jim.or.jp/EVENTS/pdf/brch_0765.pdf">日本金属学会関東支部　ヤングメタラジスト研究交流会（於 JFEスチール）</a>でポスター発表しました（M1:豊島）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.11.5</strong></font><br>
+        &nbsp;&nbsp;研究室に新メンバーを迎えました（外国人客員研究員：刘丹阳）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.11.1-3</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.jilm.or.jp/convention/index">  第137回軽金属学会秋期大会（於 東京農工大）</a>で口頭発表しました（増田、M1:豊島）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.10.25</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.jst.go.jp/kyousou/topics/k_tp_00_20190820_00.html">JST「ヘテロ構造制御」産学共創の場（於 JST東京本部 要参加登録）</a>でポスター発表しました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.10.23-25</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.highpressure.jp/new/60forum/index.html">第60回高圧討論会（於 北海道立道民活動センター）</a>で口頭発表しました（増田）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.9.11-13</strong></font><br>
+        &nbsp;&nbsp;<a href="https://jim.or.jp/MEETINGS/2019_atmn/index.php">第165回日本金属学会秋期大会（於 岡山大）</a>で口頭発表しました（M2: 牧）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.9.11-13</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.isij.or.jp/lecture-meeting/2019autumn/">第178回日本鉄鋼協会秋季大会（於 岡山大）</a>でポスター発表し、努力賞を受賞しました（M1: 三富）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.9.4</strong></font><br>
+        &nbsp;&nbsp;<a href="https://jim.or.jp/EVENTS/branch/shibu-index.html">日本金属学会関東支部講習会（於 東京大学本郷キャンパス 要参加申込）</a>で講演しました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.8.29</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.gijutu.co.jp/doc/s_908205.htm">技術情報協会セミナー「アルミニウムの物性、製造、腐食劣化対策や接着性向上のための表面処理」( 於 東京　要参加申込 )</a>で講師を務めました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.8.18-22</strong></font><br>
+        &nbsp;&nbsp;<a href="album/album - 2019.8.18-22.html">PRICM10国際会議（於 中国・西安）</a>で口頭発表しました（岩岡、M2:牧）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.8.18-19</strong></font><br>
+        &nbsp;&nbsp;軽金属学会関東支部 2019年度 若手研究者講演発表会で口頭発表し、自動車賞ならびに最優秀聴講者賞を受賞しました（M1:豊島）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.7.30</strong></font><br>
+        &nbsp;&nbsp;<a href="https://onlinelibrary.wiley.com/doi/10.1002/adem.201900561">Advanced Engineering Materials誌に受理された学術論文</a>が公開されました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.7.27</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.jstage.jst.go.jp/article/matertrans/60/8/60_L-M2019825/_article">Materials Transactions誌に受理された学術論文</a>が公開されました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.7.18</strong></font><br>
+        &nbsp;&nbsp;<a href="image/2019.7.18.pdf">軽金属学会九州支部例会（於 九州工業大学　要参加申込）</a>で講演しました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.7.13</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.pref.kanagawa.jp/docs/r5k/cnt/f6031/index.html">かながわ発・中高生のためのサイエンスフェア（於 新都市ホール（そごう横浜店9階）申し込み不要、入場無料）</a>に研究室で参加しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.7.10</strong></font><br>
+        &nbsp;&nbsp;<a href="image/2019.7.10.pdf">日本学術振興会第133委員会研究会（於 物質・材料研究機構 要参加申込）</a>で講演しました（増田）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.6.15-16</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.ynu.ac.jp/exam/ynu/opencampus.html">オープンキャンパス</a>で研究室紹介を行いました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.5.27</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jsac.or.jp/bunseki/201905.html">「ぶんせき」誌5月号</a>に入門講座「三次元アトムプローブによるナノスケールイメージング」が掲載されました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.5.22-23</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.jsae.or.jp/2019haru/program/docu/2019_jsae_spring.pdf">自動車技術会2019年春季大会（於 パシフィコ横浜)でオーガナイズドセッション「自動車軽量化を図る接合技術の研究開発動向」、フォーラム「自動車の大変革に貢献する材料技術の最新動向I（鉄鋼）II（軽金属・化成品）」</a>を開催しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.5.11</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.jilm.or.jp/uploads_content/2019/02/136pro.pdf">第136回軽金属学会春期大会 ( 於 富山大 )</a>で口頭発表しました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.4.27</strong></font><br>
+        &nbsp;&nbsp;<a href="https://y100.isij.or.jp/ferrum/">「ふぇらむ」誌5月号</a>に入門講座-平衡状態図の活用「アルミニウム合金の状態図と時効析出現象への適用」を寄稿しました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.4.26</strong></font><br>
+        &nbsp;&nbsp;<a href="image/2019.4.26.pdf">「軽金属」誌4月号</a>に株式会社SUBARU・軽金属学会トップ座談会「航空機産業の今と未来を語る」が掲載されました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.4.26</strong></font><br>
+        &nbsp;&nbsp;今年も<a href="https://www.rdsc.co.jp/seminar/190470">R&amp;D支援セミナー「アルミニウムおよびアルミニウム合金の基礎」( 於 東京　要参加申込 )</a>で講師を務めました (廣澤)<br>
+        &nbsp;<br>
+<font color="#547ab2"><strong>2019.4.4</strong></font><br>
+        &nbsp;&nbsp;研究室に新メンバーを迎えました（ポスドク : 増田、M1 : 豊島、堀、B4：服部、山根、李、金、研究生：馬）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.3.26</strong></font><br>
+        &nbsp;&nbsp;研究室から新たな世界にはばたくメンバーを送り出しました(古後、楊、M2：塚原、塚本、安盛、謝、B4：石垣、須田、谷口) <br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.3.26</strong></font><br>
+        &nbsp;&nbsp;日本金属学会・日本鉄鋼協会奨学賞 (B4：須田)、名教就美会同窓会賞 (B4：三富)を受賞しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.3.22</strong></font><br>
+        &nbsp;&nbsp;<a href="https://jim.or.jp/MEETINGS/2019_spr/index.php">日本金属学会春期大会 (於 東京電機大学)</a>で口頭発表しました（廣澤、岩岡）<br>
+        &nbsp;<br>
+	<font color="#547ab2"><strong>2019.3.5-7</strong></font><br>
+        &nbsp;&nbsp;<a href="album/album - 2019.3.5-7.html">The 9th International Symposium on Advanced Functional Materials Between Yokohama National University and Changwon National University（ 於 韓国・昌原国立大 ）</a>で口頭発表しました（岩岡、B4：三富、豊島)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.1.11</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.jilm.or.jp/symposium/view?id=16">軽金属セミナー「アルミニウム合金の組織－中級編（時効析出）」( 於 千葉工大　要参加申込 )</a>で講師を務めました (廣澤)<br>
+        &nbsp;<br>
+	<font color="#547ab2"><strong>2018.12.18</strong></font><br>
+        &nbsp;&nbsp;<a href="image/2018.12.18kousyukai.pdf">材料技術講習会「アルミニウムおよびアルミニウム合金の基礎的特性について」( 於 山梨県産業技術センター　要参加申込 )</a>で講師を務めました (廣澤)<br>
+        &nbsp;<br>
+ 	<font color="#547ab2"><strong>2018.11.12</strong></font><br>
+        &nbsp;&nbsp;<a href="http://jim.or.jp/EVENTS/files/brch_0709.pdf">日本金属学会関東支部　ヤングメタラジスト研究交流会（於 IHI横浜事業所）</a>で講演（岩岡）、ポスター発表（M1:牧）しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.11.9</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.jilm.or.jp/page-recognition0220">軽金属論文新人賞受賞</a>（H30年修士卒業生:小畑）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.11.9-11</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.jilm.or.jp/uploads_content/2018/09/135program.pdf">第135回軽金属学会秋期大会（於 芝浦工大）</a>で口頭発表（岩岡、M2:塚原）、ポスター発表（B4:豊島）しました<br>
+        &nbsp;<br>
+	<font color="#547ab2"><strong>2018.10.30</strong></font><br>
+        &nbsp;&nbsp;<a href="image/2018.10.30mishima sensei.jpg">前東工大学長の三島良直先生が、本学先端科学高等研究院の上席特別教授（非常勤）に就任しました</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.9.24-28</strong></font><br>
+        &nbsp;&nbsp; ベトナム・ダナン大学で開催されたワークショップに参加しました（廣澤、M2:安盛）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.9.19</strong></font><br>
+        &nbsp;&nbsp;<a href="http://jim.or.jp/MEETINGS/2018_atmn/index.php">第163回日本金属学会秋期大会（於 東北大）</a>で口頭発表しました（岩岡、M1:牧）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.8.30</strong></font><br>
+        &nbsp;&nbsp;今年も<a href="http://www.hachinohe-ip.co.jp/ip_pdf/h30_material_seminar.pdf">多能工・熟練技術者養成研修事業”金属材料等セミナー”（於 八戸インテリジェントプラザ）</a>の講師を務めました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.8.24</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.jilm.or.jp/info/detail?id=55">軽金属学会関東支部 2018年度 若手研究者ポスター発表会</a>でポスター発表しました（M2:謝）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.8.7および10</strong></font><br>
+        &nbsp;&nbsp;<a href="https://menkyo.liveapplications.jp/menkyo/s0001001/top?code=ynu">教員免許状更新講習</a>で「周期表と金属元素～ものつくりの観点から眺めてみると」を担当しました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.8.5</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.ynu.ac.jp/exam/ynu/pdf/opencampus2018.pdf">オープンキャンパス</a>で研究室紹介を行いました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.7.9-15</strong></font><br>
+        &nbsp;&nbsp;谷口さん(B4)が<a href="https://www.britgo.org/awcc">第5回世界大学囲碁選手権大会（於 英国ケンブリッジ）</a>に参加しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.6.17-21</strong></font><br>
+        &nbsp;&nbsp;<a href="https://icaa16.metsoc.org/">The 16th International Conference on Aluminum Alloys(ICAA16) (於 モントリオール)</a>で口頭発表 (廣澤、M2：塚本)、ポスター発表しました（M2：安盛、 M1：牧）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.5.26-27</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/convention/index">第134回軽金属学会春期大会（ 於 熊本大 )</a>で口頭発表（岩岡）、ポスター発表（M2：謝 ）し、謝君が優秀ポスター発表賞を受賞しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.5.25</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jsae.or.jp/2018haru/program/program_02y14.html"> 自動車技術会2018年春季大会（於 パシフィコ横浜)でフォーラム「自動車の革新を支える材料技術の最新動向I（鉄鋼）</a>、
+        <a href="http://www.jsae.or.jp/2018haru/program/program_02y15.html">II（軽金属・化成品）」</a>を開催しました<br>
+        &nbsp;<br>
+<font color="#547ab2"><strong>2018.4.5</strong></font><br>
+        &nbsp;&nbsp;研究室に新メンバーを迎えました（B4：石垣、須田、谷口、三富、研究生：楊）<br>
+        &nbsp;<br>
+<font color="#547ab2"><strong>2018.4.3</strong></font><br>
+        &nbsp;&nbsp;今年も<a href="https://www.rdsc.co.jp/seminar/180419">R&amp;D支援セミナー「アルミニウムおよびアルミニウム合金の基礎」( 於 名古屋　要参加申込 )</a>で講師を務めました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.4開講</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.academy.titech.ac.jp/course/seizou/detail_223.html">「金属熱処理スーパーマイスタープログラム」</a><br>
+        &nbsp;<br>
+         <font color="#547ab2"><strong>2018.3.30</strong></font><br>
+        &nbsp;&nbsp;<a href="http://es-route.ynu.ac.jp/">ROUTE（Research Opportunities for UndergraduaTEs)</a>の成果報告会でポスター発表しました（B3：豊島)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.3.23</strong></font><br>
+        &nbsp;&nbsp;研究室から新たな世界にはばたくメンバーを送り出しました(M2：小畑、笠間、五島、川村、B4：藤原、森本) <br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.3.23</strong></font><br>
+        &nbsp;&nbsp; 軽金属希望の星賞 (M2：小畑)、自動車技術会大学院研究奨励賞 (M2：小畑)、日本金属学会・日本鉄鋼協会奨学賞受賞 (B4：牧)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.3.16</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/page-event09">軽金属セミナー「アルミニウム合金の組織－中級編（時効析出）」( 於 千葉工大　要参加申込 )</a>で講師を務めました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.2.28</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.jstage.jst.go.jp/browse/jilm/68/0/_contents/-char/ja"> 軽金属誌に受理された学術論文</a>が公開されました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.11.24</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/?mode=content&pid=290">軽金属学会のホームページ</a>にエッセイ「仕事の魅力（大学教員）」を寄稿しました（廣澤）<br>
+        &nbsp;<br>
+<font color="#547ab2"><strong>2017.11.22</strong></font><br>
+        &nbsp;&nbsp;<a href="image/2017.11.22young.pdf">「日本金属学会関東支部　ヤングメタラジスト研究交流会」（於 新日鐵住金）</a>でポスター発表しました（M1:塚原）<br>
+        &nbsp;<br>
+<font color="#547ab2"><strong>2017.11.15</strong></font><br>
+        &nbsp;&nbsp;<a href="image/2017.11.15paper.pdf">「工業材料」誌12月号</a>に解説記事「車体の軽量化を実現するアルミニウム合金の自動車部材への適用」が掲載されました（廣澤） <br>
+        &nbsp;<br>
+<font color="#547ab2"><strong>2017.11.4-5</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/?mode=content&pid=280">第133回軽金属学会秋期大会（於 宇都宮大）</a>で口頭発表（廣澤、M1:塚本）、ポスター発表（M1:塚原、安盛）しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.10.17</strong></font><br>
+        &nbsp;&nbsp;研究室に新メンバーを迎えました（ B3：豊島 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.9.30</strong></font><br>
+        &nbsp;&nbsp;研究室から新たな世界にはばたくメンバーを送り出しました ( 唐、研究生:盧 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.10.1-2</strong></font><br>
+        &nbsp;&nbsp;<a href="image/2017.10.1-2dr.pdf">「ドクターへの誘い：21世紀グローバル新社会で活躍する実践的人材育成を目指して」（於 マホロバ・マインズ三浦)</a>を開催しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.9.15</strong></font><br>
+        &nbsp;&nbsp;今年度も<a href="http://www.hachinohe-ip.co.jp/index1.html">「多能工・熟練技術者養成研修事業”金属材料等セミナー”」（於 八戸インテリジェントプラザ）</a>の講師を務めました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.9.6-8</strong></font><br>
+        &nbsp;&nbsp;<a href=" http://jim.or.jp/MEETINGS/2017_atmn/index.php">  第161回日本金属学会秋期大会（於 北海道大）</a>で口頭発表しました（廣澤、M2:笠間）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.8.27-9.1</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.iumrs-icam2017.org/award/encouragement.php">IUMRS-ICAM2017国際会議（於 京都大学）</a>で招待講演（廣澤）、口頭発表（M2: 小畑、笠間、五島)し、小畑君が Winners of Award for Encouragement of Research に選ばれました<br>
+        &nbsp;<br>
+<font color="#547ab2"><strong>2017.8.5-6</strong></font><br>
+        &nbsp;&nbsp;<a href="image/2017.8.5-6opencampus.pdf">オープンキャンパス</a>で研究室紹介を行いました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.7.10-12</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.fimpart.org/2017/wp/">FiMPART（ 於 フランス ボルドー )</a>で招待講演しました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.6.9</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/symp_detail.php?ID=123"> 軽金属セミナー「アルミニウム合金の組織－中級編（時効析出）」( 於 千葉工大　要参加申込 )</a>で講師を務めました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.5.30</strong></font><br>
+        &nbsp;&nbsp;<a href="image/2017.5.30.kogo.paper.pdf">軽金属誌に受理された学術論文</a>が公開されました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.5.21</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/images/contents/156/132program.pdf"> 第132回軽金属学会春期大会（ 於 名古屋大 )</a>で基調講演（廣澤）、口頭発表しました（唐、D3：古後 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.5.20</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.jilm.or.jp/page-Committee04">軽金属学会編集委員会委員長</a>を務めることになりました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.4.25</strong></font><br>
+        &nbsp;&nbsp;今年も<a href="https://www.rdsc.co.jp/seminar/170443">R&amp;D 支援セミナー「アルミニウムおよびアルミニウム合金の基礎」( 於 東京　要参加申込 )</a>で講師を務めました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.4.4</strong></font><br>
+        &nbsp;&nbsp; 研究室に新メンバーを迎えました（B4：藤原、牧、森本）<br>
+        &nbsp;<br>
+         <font color="#547ab2"><strong>2017.4.3</strong></font><br>
+        &nbsp;&nbsp;<a href="image/2017.4.4paper.pdf">Acta Materialia誌に受理された学術論文の電子版</a>が公開されました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.3.24</strong></font><br>
+        &nbsp;&nbsp; 研究室から新たな世界にはばたくメンバーを送り出しました (M2：木村、齋田、藤井、中村、梅田、B4：須賀)  <br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.3.24</strong></font><br>
+        &nbsp;&nbsp; 名教就美会同窓会賞を受賞しました (B4：塚原) <br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.3</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jst.go.jp/kyousou/hyouka/h28_hetero_post.html"> JSTヘテロ構造制御PJの事後評価結果</a>が公開されました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.3.1</strong></font><br>
+        &nbsp;&nbsp;今年も<a href="http://www.hachinohe-ip.co.jp/ip_pdf/h28_material_seminar.pdf">「ものづくり基盤技術人材育成支援事業”金属材料等セミナー”」（於 八戸インテリジェントプラザ）</a>の講師を務めました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.2.21</strong></font><br>
+        &nbsp;&nbsp;<a href="image/2017.2.21Changwon.pdf">The 8th International Symposium on Advanced Functional Materials Between Yokohama National University and Changwon National University（ 於 横浜国大 ）</a>で口頭発表しました（D2：古後)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.2.15</strong></font><br>
+        &nbsp;&nbsp;SURTECH 2017－表面技術要素展－（於 東京ビッグサイト）で<a href="http://www.surtech.jp/su2017/lecture01.html#lec02">表面技術協会「ナノテク部会」研究会</a>の講師を務めました（廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2017.1.27</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/symp_detail.php?ID=118">軽金属セミナー「アルミニウム合金の組織－中級編（時効析出）」( 於 キャンパスプラザ京都　要参加申込 )</a>で講師を務めました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.12.14</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/symp_detail.php?ID=115">軽金属学会シンポジウム「押出加工および鍛造の予測技術～工程・工具設計のためのシミュレーション技術～」（於 日本大　要参加申込）</a>で講演しました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.11.22</strong></font><br>
+        &nbsp;&nbsp;中高生向け職業紹介記事<a href="image/2016.11.22syokugyou.pdf">「仕事の魅力　大学教員（教授、准教授、講師、助教）」</a>を執筆しました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.11.5-6</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/images/contents/156/131program.pdf">第131回軽金属学会秋期大会（於 茨城大）</a>でポスター発表しました（M1:小畑、五島）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.10.28</strong></font><br>
+        &nbsp;&nbsp;研究室に新メンバーを迎えました（ B3：牧、研究生：盧 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.10.26</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.isij.or.jp/mu2ntcijv">日本鉄鋼協会主催の第68回白石記念講座（於 早稲田大）</a>で講演しました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.10.21</strong></font><br>
+        &nbsp;&nbsp;<a href="image/2016.10.21young.pdf">「日本金属学会関東支部　ヤングメタラジスト研究交流会」（於 東京大）</a>でポスター発表し（M1:小畑、笠間、五島）、小畑君が優秀賞を受賞しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.9.22</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.isij.or.jp/index.php?action=pages_view_main&active_action=multidatabase_view_main_detail&content_id=2340&multidatabase_id=48&block_id=1340#_1340">JSTヘテロ構造制御PJの公開シンポジウム（於 大阪大）</a>で講演しました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.9.21</strong></font><br>
+        &nbsp;&nbsp;<a href="http://jim.or.jp/MEETINGS/2016_atmn/news/poster_award.php">第159回日本金属学会秋期大会（於 大阪大）</a>でポスター発表し、「優秀ポスター賞」を受賞しました（M1:笠間）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.8.29</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/images/contents/23/kanto20160829.pdf">軽金属学会関東支部 2016年度 若手研究者ポスター発表会</a>でポスター発表し（M1:五島、笠間）、笠間君が「関東支部賞」を受賞しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.8.18</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.ntv.co.jp/tokuson/oa/">日本テレビ「あのニュースで得する人損する人」</a>で”アルミホイルでおいしくローストビーフを作る方法”を監修しました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.8.1-5</strong></font><br>
+        &nbsp;&nbsp;<a href="http://web.apollon.nta.co.jp/PRICM9/index.html">The 9th Pacific Rim International Conference on Advanced Materials and Processing (PRICM9) (於 京都)</a>でキーノートレクチャー講演しました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.7.28-31</strong></font><br>
+        &nbsp;&nbsp;<a href="http://irc-gsam.kyushu-u.ac.jp/gsam/gsam2016/index.html">International Workshop of Giant Straining Process for Advanced Materials 2016 (GSAM2016)</a>で講演しました（岩岡）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.7.8</strong></font><br>
+        &nbsp;&nbsp;<a href="image/2016.7.8seminar.pdf"> 軽金属セミナー「アルミニウム合金の組織－中級編（時効析出）」( 於 名古屋大　要参加申込 )</a>で講師を務めました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.6.12-16</strong></font><br>
+        &nbsp;&nbsp;<a href="http://icaa15.cqu.edu.cn/"> The 15th International Conference on Aluminum Alloys(ICAA15) (於 中国重慶)</a>で口頭発表しました (廣澤、唐、D2:古後、M2:齋田)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.4.1</strong></font><br>
+        &nbsp;&nbsp;研究室に新メンバーを迎えました（ 助教：岩岡 M1：川村 B4：塚原、塚本、安盛、須賀 研究生: 謝 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.4開講</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.kyoiku-in.titech.ac.jp/course/seizou/detail_223.html">「金属熱処理スーパーマイスタープログラム」受講者募集</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.3.28</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.rdsc.co.jp/seminar/160365">R&amp;D 支援セミナー「アルミニウムおよびアルミニウム合金の基礎」( 於 東京　要参加申込 )</a>で講師を務めました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.3.24</strong></font><br>
+        &nbsp;&nbsp; 研究室から新たな世界にはばたくメンバーを送り出しました (M2：泉山、川並、B4：藤原) <br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.3.24</strong></font><br>
+        &nbsp;&nbsp;<a href="album/album - award2016.html">日本金属学会・日本鉄鋼協会奨学賞受賞 (B4：笠間)</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.3.13</strong></font><br>
+        &nbsp;&nbsp;<a href="http://zaiko6.zaiko.kyushu-u.ac.jp/purple_ribbon/">共同研究でお世話になっている九州大学堀田善治教授の紫綬褒章受賞記念講演会および祝賀会</a>が開催されました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.3.8</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/symp_detail.php?ID=107"> 軽金属セミナー「アルミニウム合金の時効析出」( 於 早稲田大　要参加申込 )</a>で講師を務めました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.3.1</strong></font><br>
+        &nbsp;&nbsp;<a href="image/20160301.pdf">日本学術振興会「材料の微細組織と機能性第133委員会」研究会（於 東京）</a>で講演しました(廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.2.22</strong></font><br>
+        &nbsp;&nbsp;The 7th International Symposium on Advanced Functional Materials Between Yokohama National University and Changwon National University（ 於 韓国昌原 ）で口頭発表しました（M1：木村、藤井）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.2.1</strong></font><br>
+        &nbsp;&nbsp;日本金属学会会報「まてりあ」２月号に<a href="https://www.jim.or.jp/journal/m/">最近の研究「アルミニウム合金 の超微細粒強化と時効析出強化を並立させる３つの方策」</a>が紹介されました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.1.13</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.scientific.net/AMR.1135/book">執筆を分担した「Advanced Materials in Aerospace Engineering」 （Trans Tech Publications Inc.）</a>が発刊されました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.1.8</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.ynu.ac.jp/hus/koho/13076/detail.html">本学主催の公開講座（於 横浜ワールドポーターズ 要参加申込）</a>で講師を務めました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.11.28-30</strong></font><br>
+        &nbsp;&nbsp;<a href="image/Dr_izanai2015.pdf ">  「ドクターへの誘い：グローバル社会で活躍する実践的人材育成のために」（於 マホロバ・マインズ三浦)</a>を開催しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.11.21-22</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/images/contents/156/129pro.pdf "> 第 129回軽金属学会秋期大会 (於 日本大) </a>で口頭発表（廣澤、M1:木村）、ポスター発表（M1:藤井）し、 藤井君が優秀ポスター発表賞を受賞しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.11.14</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.zushi-kaisei.ac.jp/news/2015/11/post-347.html"> 逗子開成中学・高校生 向けに土曜講座「周期表と金属元素～身の回りの金属材料を科学しよう」（於 横浜国大）</a>を開講しました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.11.13</strong></font><br>
+        &nbsp;&nbsp;<a href="http://jim.or.jp/EVENTS/branch/brch_0635.pdf">「日本金属学会関東支部　ヤングメタラジスト研究交流会」（於 横浜国大　要参加申込）</a>で11年ぶりに講演（廣澤）、ポスター発表（M1:齋田、藤井）しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.10.20-21</strong></font><br>
+        &nbsp;&nbsp;今年度も<a href="http://www.hachinohe-ip.co.jp/index1.html">「ものづくり基盤技術人材育成支援事業”金属材料等セミナー”」（於 八戸インテリジェントプラザ）</a>の講師を務めました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.9.16-18</strong></font><br>
+        &nbsp;&nbsp;<a href="http://jim.or.jp/MEETINGS/2015_atmn/program/web/src/table.php?lang=ja">第157回日本金属学会秋期大会(於 九州大)</a>で口頭発表 (D1：古後)、ポスター発表（唐）しました	<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.9.3-6</strong></font><br>
+        &nbsp;&nbsp;<a href="http://irc-gsam.kyushu-u.ac.jp/gsam/gsam2015/">International Workshop of Giant Straining Process for Advanced Materials 2015 (GSAM2015)</a>で講演しました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.8.30-31</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/images/contents/23/kanto2015083031.pdf">軽金属学会関東支部 2015年度 若手研究者育成研修会</a>で口頭発表し（M1: 木村、中村）、木村君が自動車賞を受賞しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.7.21</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/symp_detail.php?ID=102">軽金属セミナー「アルミニウム合金の時効析出」( 於 早稲田大　要参加申込 )</a>で講師を務めました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.5.16</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/images/contents/156/128pro.pdf">第128回軽金属学会春期大会 ( 於 東北大 )</a>で口頭発表（D1：古後）、ポスター発表（M1：齋田）し、齋田君が優秀ポスター発表賞を受賞しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.5.12</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.aluminium2000.com/index.php/en/"> Aluminium2000 国際会議（フィレンチェ）</a>で講演しました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.4.7</strong></font><br>
+        &nbsp;&nbsp;JSTのホームページに<a href="http://www.jst.go.jp/kyousou/">日本金属学会功績賞受賞の記事</a>が掲載されました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.4.3</strong></font><br>
+        &nbsp;&nbsp;研究室に新メンバーを迎えました（ B4：小畑、笠間、五島、藤原 B3：知見　韓国昌原大学校ダブルディグリープログラムM1: 丁 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.3.25</strong></font><br>
+        &nbsp;&nbsp;研究室から新たな世界にはばたくメンバーを送り出しました (M2：越能、後藤、B4：木内) <br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.3.25</strong></font><br>
+        &nbsp;&nbsp;<a href="album/album - award2015.html">自動車技術会大学院研究奨励賞 (M2：越能)、日本金属学会・日本鉄鋼協会奨学賞 (B4：木内)、同窓会賞 (B4：斎田)受賞</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.3.25</strong></font><br>
+        &nbsp;&nbsp;全学卒業式（於 横浜文化体育館）で理工学部の学生を代表して学位記を受け取りました (B4：木内) <br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.3.20</strong></font><br>
+        &nbsp;&nbsp;<a href="http://jim.or.jp/MEETINGS/2015_spr/program/web/src/session.php?d=20P&session=C360">日本金属学会春期大会 (於 東京大学)</a>で功績賞受賞講演を行いました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.3.19</strong></font><br>
+        &nbsp;&nbsp;<a href="https://www.isij.or.jp/index.php?action=pages_view_main& active_action=multidatabase_view_main_detail&content_id=2104& amp;multidatabase_id=43&block_id=865#_865">日本鉄鋼協会春季大会 (於 東京大学)</a>で開催された「次世代溶融めっき鋼板の高機能金属間化合物層の新展開」シンポジウムで講演しました　(M1：川並)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.3.13</strong></font><br>
+        &nbsp;&nbsp;<a href="image/20150313SATO.pdf">恩師東京工業大学里教授の退職記念国際シンポジウム</a>で講演しました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.3.11</strong></font><br>
+        &nbsp;&nbsp;本学<a href="http://www.nrc.ynu.ac.jp/index.html">ナノリサーチクラブ</a>主催の<a href="image/20150311.pdf">講演会</a>でブラジル・パライーバ大学のGomes教授が講演しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.3.6</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.nrc.ynu.ac.jp/index.html">横浜市立大学との第10回ナノテク交流シンポジウム</a>でポスター発表しました（B4：木内）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.3.2</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.rri.kyoto-u.ac.jp/SANS_analysis/index.html">第6回中性子小角散乱解析法研究会（於 京大東京オフィス）</a>で講演しました(廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.2.24</strong></font><br>
+        &nbsp;&nbsp;<a href="image/20150224.pdf">日本学術振興会「材料の微細組織と機能性第133委員会」研究会（於 物材機構）</a>で講演しました(廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.2.2-3</strong></font><br>
+        &nbsp;&nbsp;今年も<a href="http://www.hachinohe-ip.co.jp/index1.html">「ものづくり基盤技術人材育成支援事業”金属材料等セミナー”」（於 八戸インテリジェントプラザ）</a>の講師を務めました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.11.30</strong></font><br>
+        &nbsp;&nbsp;軽金属特集号に解説記事<a href="image/20141130KeikinKaisetsu.pdf">「3次元アトムプローブによるアルミニウム合金中のナノ組織解析」</a>が掲載されました(廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.11.25</strong></font><br>
+        &nbsp;&nbsp;<a href="http://authors.elsevier.com/a/1Q7JH3IWkbeHg3">Journal of Alloys and Compounds誌に受理された学術論文の電子版</a>が公開されました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.11.15-16</strong></font><br>
+        &nbsp;&nbsp;<a href="image/20141115-16.jpg">第13回軽金属躍進賞</a>受賞 (廣澤) <br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.11.15-16</strong></font><br>
+        &nbsp;&nbsp;<a href=" http://www.jilm.or.jp/society/images/contents/156/127pro.pdf">第127回軽金属学会秋期大会 (於 東工大)</a>で口頭発表しました (M2：越能、後藤) <br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.9.25</strong></font><br>
+        &nbsp;&nbsp;<a href="image/hetero.pdf">JSTヘテロ構造制御PJ の公開シンポジウム (於 名古屋大)</a>で 講演しました (廣澤)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.9.25</strong></font><br>
+        &nbsp;&nbsp;<a href="http://jim.or.jp/MEETINGS/2014_atmn/index.html">第155回日本金属学会秋期大会　(於 名古屋大)</a>で口頭発表しました (M1：川並)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.9.10</strong></font><br>
+        &nbsp;&nbsp;<a href="image/GSAM2014 Program(140811).pdf">International Workshop of Giant Straining Process for Advanced Materials 2014 (GSAM2014)</a>で講演しました（廣澤、唐、M2：後藤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.9.2-3</strong></font><br>
+        &nbsp;&nbsp;<a href="album/album - 2014.9.2~3.html">第四回研究室旅行 in武尊</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.8.21</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/images/contents/23/kanto20140821.pdf">軽金属学会関東支部 平成26年度若手研究者ポスター発表会</a>でポスター発表しました
+ (唐、M1：川並)<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.8.7-9</strong></font><br>
+        &nbsp;&nbsp;<a href="http://nakatsugawa-lab.jp/Call%20for%20paper%20ISAFM2014.pdf"> The 6th International Symposium on Advanced Functional Materials Between Yokohama National
+  University and Changwon National University (於 横浜国大)</a>で、18人中3位の得票率で優秀発表賞を受賞しました　(M2：後藤) <br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.8.2-3</strong></font><br>
+        &nbsp;&nbsp;本学主催のオープンキャンパスで、<a href="http://www.ynu.ac.jp/exam/ynu/opencampus.html">材料工学EPの模擬講義（高校生・一般向け　参加無料）</a>担当しました （廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.7.19</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.me.ynu.ac.jp/doso/index.htm">本学生産工学科同窓会主催のOBブラッシュアップ研修会</a>で講師を務めました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.6.15-19</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.ntnu.edu/icaa14">The 14th International Conference on Aluminum Alloys(ICAA14)  (於 ノルウェー トロンハイム)</a>で口頭発表しました ( M2：古後　越能 )<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.5.31</strong></font><br>
+        &nbsp;&nbsp;在学生、卒業生一同で<a href="album/album - 2014.5.31.html">廣澤先生 教授昇進祝い</a>を開催致しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.5.8</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.nts-book.co.jp/item/detail/summary/kobunsi/20140500_67.html">執筆を分担した「自動車の軽量化テクノロジー　－材料・成形・接合・強度、燃費・電費性能の向上を目指して」（㈱エヌ・ティー・エス）</a>が発刊されました（廣澤）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.4.1</strong></font><br>
+        &nbsp;&nbsp;研究室に新メンバーを迎えました（ B4：木内、木村、齋田、藤井、中村、M1:泉山、産学連携研究員：唐 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.3.26</strong></font><br>
+        &nbsp;&nbsp; 研究室から新たな世界にはばたくメンバーを送り出しました（ M2：池上、北中、小池、B4：大光明 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.3</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jst.go.jp/kyousou/hyouka/h25_hetero.html">JSTヘテロ構造制御PJの中間評価結果が公開されました</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.3</strong></font><br>
+        &nbsp;&nbsp;<a href="album/album - award2014.html">軽金属希望の星賞（ M2：北中 ）、自動車技術会大学院研究奨励賞（ M2：池上 ）、<br>
+        日本金属学会・日本鉄鋼協会奨学賞（ B4：川並 ）受賞</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.3.7</strong></font><br>
+        &nbsp;&nbsp;<a href="http://fnavi.s170.coreserver.jp/testsite/01/yokohama_u/nrc/index.html">横浜市立大学との第9回ナノテク交流シンポジウムでポスター発表しました</a>（ B4：大光明 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.3.1</strong></font><br>
+        &nbsp;&nbsp;<a href="album/album - 2014.3.1.html">第一回廣澤研OB会 兼 卒業生の上別府さんの結婚お祝い会を開催しました</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.2.25</strong></font><br>
+        &nbsp;&nbsp;<a href="image/seminar.pdf" target="_blank">日本金属学会・日本鉄鋼協会東海支部若手材料研究会（ 参加無料　要参加申込 ）で講演しました</a>（ 廣澤 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.12.2~6</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.thermec.org/template3s/" target="blank">Thermec'2013 （ 於 米国 ラスベガス ）</a>で招待講演（ 廣澤 ）、ポスター発表（ M2：池上、北中 ）しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.11.9~10</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/images/contents/166/125pro.pdf">第125回軽金属学会秋期大会（ 於 横浜国大 ）</a>で口頭発表しました（ M1：越能 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.10.21</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jilm.or.jp/society/?mode=content&pid=23" target="blank">軽金属学会東海支部若手研究者ポスター講演会 （ 於 名古屋大 ）</a>で特別講演を行いました（ 廣澤 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.10.13~17</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.acaa2013.com/" target="blank">1st Asian Conference on Aluminum Alloys （ 於 中国 北京 ）</a>で招待講演しました（ 廣澤 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.9.30</strong></font><br>
+        &nbsp;&nbsp;<a href="image/Hirosawa_lab.pdf" target="_blank">軽金属に本研究室の紹介記事が掲載されました</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2012.9.24~25</strong></font><br>
+        &nbsp;&nbsp;<a href="album/album - 2013.9.24~25.html">第三回研究室旅行 in 那須</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.9.23</strong></font><br>
+        &nbsp;&nbsp;軽金属学会関東支部 平成25年度若手研究者育成研修会で<a href="album/album - Kogo_award.html">優秀研究講演賞を受賞しました</a>（ M1：古後 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.9.17</strong></font><br>
+        &nbsp;&nbsp;<a href="http://jim.or.jp/MEETINGS/2013_atmn/index.html">第153回日本金属学会秋期大会（ 於 金沢大 ）</a><a href="album/album-award2016.html">で</a><a href="album/album - Kogo_award.html">優秀ポスター賞を受賞しました</a>（ M1：古後 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.8.23~25</strong></font><br>
+        &nbsp;&nbsp;The 5th International Symposium on Advanced Functional Materials Between Yokohama National<br>
+        &nbsp;&nbsp;University and Changwon National University（ 於 韓国釜山 ）で口頭発表しました（M2：小池 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.7.4~5</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.ynu.ac.jp/hus/koho/9253/detail.html" target="_blank">本学主催の「利用者のための鋳鉄基礎講座」（ 受講料無料　要参加申込 ）</a>で講師を務めました（ 廣澤 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.6.12~7.31</strong></font><br>
+        &nbsp;&nbsp;米国 Southeastern Louisiana 大学のB. Mobley君が短期留学のために来日しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.5.18~19</strong></font><br>
+        &nbsp;&nbsp;第124回軽金属学会春期大会（ 於 富山大 ）で<a href="album/album - Goto_award.html">優秀ポスター発表賞を受賞しました</a>（ M1：後藤 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.4.17</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s11661-013-1730-y" target="_blank">Metallurgical and Materials Transactions A誌に受理された学術論文が2013 Editors' Choice Articleに選出され、<br>
+        SpringerLinkに電子版が公開されました</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.3.6</strong></font><br>
+        &nbsp;&nbsp;横浜市立大学との第8回ナノテク交流シンポジウムでポスター発表しました（ M2：田沼 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.1.31~2.1</strong></font><br>
+        &nbsp;&nbsp;今年も次世代自動車新材料セミナー（ 於 <a href="http://www.hachinohe-ip.co.jp/index1.html" target="_blank">八戸インテリジェントプラザ</a> ）の講師を務めました（ 廣澤 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2012.12.17</strong></font><br>
+        &nbsp;&nbsp;<a href="album/album - 2012.10.16~12.17.html">米国 Southeastern Louisiana 大学への短期留学（２ヶ月）から帰国しました</a>（ M2：田沼 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2012.11.10~11</strong></font><br>
+        &nbsp;&nbsp;第123回軽金属学会秋期大会（ 於 千葉工大 ）で口頭発表しました（ M1：池上、北中 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2012.11.1</strong></font><br>
+        &nbsp;&nbsp;<a href="study.html">日本鉄鋼協会会報「ふぇらむ」にJSTヘテロ構造制御PJ採択テーマの解説記事が掲載されました</a>（ 廣澤、濱岡 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2012.9.21~22</strong></font><br>
+        &nbsp;&nbsp;<a href="album/album - 2012.9.21~22.html">第二回研究室旅行 in 山梨</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2012.9.18</strong></font><br>
+        &nbsp;&nbsp;<a href="http://www.jst.go.jp/kyousou/" target="blank">JSTヘテロ構造制御PJの公開シンポジウムにて講演しました</a>（ 廣澤 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2012.8.24~26</strong></font><br>
+        &nbsp;&nbsp;The 4th International Symposium on Advanced Functional Materials Between Yokohama National<br>
+        &nbsp;&nbsp;University and Changwon National University（ 於 マホロバ・マインズ三浦 ）でポスター発表しました（ M2：森田 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2012.6.3~7</strong></font><br>
+        &nbsp;&nbsp;<a href="study.html">The 13th International Conference on Aluminum Alloys（ ICAA13 ）（ 於 米国 Carnegie Mellon Univ. ）</a><br>
+        &nbsp;&nbsp;で口頭発表（ M2：本島 ）、ポスター発表（ M2：加藤 ）しました<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2012.5.19</strong></font><br>
+        &nbsp;&nbsp;第122回軽金属学会春期大会（ 於 九州大学 ）で基調講演しました（ 廣澤 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2012.4</strong></font><br>
+        &nbsp;&nbsp;研究室に新メンバーを迎えました（ 濱岡、B4：小上、古後、越能、後藤 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2012.3.23</strong></font><br>
+        &nbsp;&nbsp;<a href="album/album - Sakai_award.html">軽金属希望の星賞受賞</a>（ M2：酒井 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2012.3.12</strong></font><br>
+        &nbsp;&nbsp;TMS 141st Annual Meeting &amp; Exhibition（ 於 米国 オーランド ）で招待講演しました（ 廣澤 ）</p>
+        </td>
+        <td width="5">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr><tr>
+        <td colspan="3"><img src="image/spacer.gif" width="1" height="15" alt=""></td>
+        <td>&nbsp;</td>
+      </tr><tr>
+        <td colspan="3"><img src="image/line_00.gif" width="860" height="1" alt=""></td>
+        <td>&nbsp;</td>
+      </tr><tr>
+        <td colspan="3"><img src="image/spacer.gif" width="1" height="15" alt=""></td>
+        <td>&nbsp;</td>
+      </tr><tr>
+        <td colspan="3"><img src="image/ba_PR1.png" border="0" width="860" height="34"></td>
+        <td>&nbsp;</td>
+      </tr><tr>
+        <td colspan="3"><img src="image/spacer.gif" width="1" height="15" alt=""></td>
+        <td>&nbsp;</td>
+      </tr><tr>
+        <td colspan="3">
+        <p style="line-height:140%">&nbsp;研究室の発足から12年が経ち、この春から日本学術振興会特別研究員(PD)の増田先生にお越し頂くことになりました。岩岡先生も加えると3名の教員で教育・研究を進めていく体制が整ったことになります。今年度の研究テーマもほとんどがアルミニウム合金に関するもので、「高強度、高剛性、高耐熱性」、「超微細粒、ナノクラスタ、マイクロアロイング」、「第一原理計算、有限要素法、フェーズフィールド法、状態図計算（Calphad法）」をキーワードに、高性能・高機能構造材料を開発するための『微視的組織制御・解析』、『材料特性評価』 ならびに『計算材料学による機構解明』を行っています。多くは、共同研究や受託研究、研究部会のテーマとして実施しており、国内外の大学や企業の研究者と同じ土俵で議論することで、研究に求められる姿勢や明晰さ、厳しさを身に付けつつ、学生であってもしっかりと成果を出すことを求めています。世の中の役に立つ材料を創製し、ものつくりを通して学生が存分に活躍できる研究室を目指しています。
+</td>
+      </tr><tr>
+        <td colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><img src="image/line_00.gif" width="860" height="1" alt=""><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+        <td width="10" rowspan="11">&nbsp;</td>
+      </tr><tr>
+        <td colspan="3"><img src="image/ba_news1.png" border="0" width="860" height="34"></td>
+      </tr><tr>
+        <td colspan="3"><img src="image/spacer.gif" width="1" height="15" alt=""></td>
+      </tr><tr>
+        <td width="10"><img src="image/spacer.gif" width="10" height="1" alt=""></td>
+        <td width="860">
+        <p class="infobox">
+        <font color="#547ab2"><strong>2020.4.3</strong></font><br>
+        メンバー更新：
+                <a href="member.html">メンバー</a><br>
+        &nbsp;<br>
+       <font color="#547ab2"><strong>2020.3.27</strong></font><br>
+        アルバム更新：
+		<a href="album/album - 2020.3.24.html">M2修士修了/B4卒業</a><br>
+        &nbsp;<br>
+       <font color="#547ab2"><strong>2019.9.30</strong></font><br>
+        アルバム更新：
+		<a href="album/album - 2019.9.20-21.html">研究室旅行 in栃木</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2019.4.5</strong></font><br>
+        メンバー更新：
+                <a href="member.html">メンバー</a><br>
+        &nbsp;<br>
+       <font color="#547ab2"><strong>2019.3.29</strong></font><br>
+        アルバム更新：
+		<a href="album/album - 2019.3.26.html">M2修士修了/B4卒業</a><br>
+        &nbsp;<br>
+      <font color="#547ab2"><strong>2018.9.28</strong></font><br>
+        アルバム更新：
+		<a href="album/album - 2018.9.13-14.html">研究室旅行 in水上</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2018.4.11</strong></font><br>
+        アルバム更新：
+		<a href="album/album - 2018.3.23.html">M2修士修了/B4卒業</a><br>
+        &nbsp;<br>
+メンバー更新：
+                <a href="member.html">メンバー</a><br>
+        &nbsp;<br>
+        研究業績更新：
+                <a href="study.html">研究業績</a><br>
+        &nbsp;<br>
+
+<font color="#547ab2"><strong>2017.9.25</strong></font><br>
+        アルバム更新：
+		<a href="album/album - 2017.7.21.html">唐さん送別会</a>&nbsp;<a href="album/album - 2017.9.13-14.html">研究室旅行 in鬼怒川</a><br>
+        &nbsp;<br>
+メンバー更新：
+                <a href="member.html">メンバー</a><br>
+        &nbsp;<br>
+        研究業績更新：
+                <a href="study.html">研究業績</a><br>
+        &nbsp;<br>
+
+       <font color="#547ab2"><strong>2017.4.20</strong></font><br>
+        アルバム更新：
+		<a href="album/album - 2017.3.24.html">M2修士修了/B4卒業</a><br>
+        &nbsp;<br>
+      <font color="#547ab2"><strong>2016.9.30</strong></font><br>
+        アルバム更新：
+		<a href="album/album - 2016.9.14-15.html">研究室旅行 in秩父</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2016.4.11</strong></font><br>
+        アルバム更新：
+		<a href="album/album - award2016.html">平成27年度受賞</a>&nbsp;<a href="album/album - 2016.3.24.html">M2修士修了/B4卒業</a><br>
+        &nbsp;<br>
+        メンバー更新：
+                <a href="member.html">メンバー</a><br>
+        &nbsp;<br>
+        研究業績更新：
+                <a href="study.html">研究業績</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.9.14</strong></font><br>
+        アルバム更新：
+		<a href="album/album - 2015.9.2~3.html">研究室旅行 in熱海</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.4.10</strong></font><br>
+        アルバム更新：
+		<a href="album/album - award2015.html">平成26年度受賞</a>&nbsp;<a href="album/album - 2015.3.25.html">M2修士修了/B4卒業</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2015.2.27</strong></font><br>
+        アルバム更新：
+		<a href="album/album - 2014.9.2~3.html">研究室旅行 in武尊</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.6.27</strong></font><br>
+        アルバム更新：
+		<a href="album/album - 2014.5.31.html">廣澤先生 教授昇進祝い</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2014.4.16</strong></font><br>
+        研究業績、メンバー、アルバム更新<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.5.20</strong></font><br>
+        アルバム更新：
+		<a href="album/album - Goto_award.html">軽金属学会春期大会優秀ポスター発表賞</a>（ M1：後藤 ）<br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.4.15</strong></font><br>
+        アルバム更新：
+		<a href="album/album - 2013.3.22.html">M2修士修了/B4卒業</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2013.4.11</strong></font><br>
+        <a href="member.html">メンバー更新</a><br>
+        アルバム更新：<a href="album/album - 2012.12.26.html">忘年会</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2012.12.21</strong></font><br>
+        アルバム更新：
+		<a href="album/album - 2012.10.16~12.17.html">田沼 短期留学</a><br>
+        &nbsp;<br>
+        <font color="#547ab2"><strong>2012.11.10</strong></font><br>
+        廣澤研究室のHPオープン</td>
+        <td width="10"><img src="image/spacer.gif" width="10" height="1" alt=""></td>
+      </tr><tr>
+        <td colspan="3"><img src="image/spacer.gif" width="1" height="9" alt=""></td>
+      </tr><tr>
+        <td colspan="3"><img src="image/line_00.gif" width="860" height="1" alt=""></td>
+      </tr><tr>
+        <td colspan="3"><img src="image/spacer.gif" width="1" height="8" alt=""></td>
+      </tr></table>
+    <table width="764" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="2"><img src="image/spacer.gif" width="2" height="1" alt=""></td>
+        <td>
+        <table width="760" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="image/spacer.gif" width="1" height="30" alt=""></td>
+          </tr><tr>
+            <td style="text-align : right;"><a href="news/news.html">過去の更新情報</a></td>
+          </tr><tr>
+            <td style="text-align : right;"><a href="link.html">大学HPへのリンク</a></td>
+          </tr><tr>
+            <td style="text-align : right;"><img src="image/p_arrow_02.gif" width="9" height="5" alt="">&nbsp;<a href="#top-pagetop">このページのトップへ</a></td>
+          </tr><tr>
+            <td><img src="image/spacer.gif" width="1" height="15" alt=""></td>
+          </tr></table>
+        </td>
+        <td width="2"><img src="image/spacer.gif" width="2" height="1" alt=""></td>
+      </tr></table>
+    <div id="footer">
+    <table width="860" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="2"><img src="image/spacer.gif" width="2" height="30" alt=""></td>
+        <td width="860" style="text-align : center;"><font color="#FFFFFF">｜  <u>ホーム</u>  ｜  <a href="work.html" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration=''">研究紹介</a>  ｜  <a href="study.html" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration=''">研究業績</a>  ｜  <a href="member.html" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration=''">メンバー</a>  ｜  <a href="album.html" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration=''">アルバム</a>  ｜  <a href="access.html" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration=''">アクセス</a>  ｜  <a href="news/english.html" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration=''">English</a>  ｜</font></td>
+        <td width="2"><img src="image/spacer.gif" width="2" height="30" alt=""></td>
+      </tr><tr>
+        <td colspan="3"><img src="image/spacer.gif" width="1" height="8" alt=""></td>
+      </tr><tr>
+        <td width="2"><img src="image/spacer.gif" width="2" height="66" alt=""></td>
+        <td width="860" valign="top" style="text-align : center;"><font color="#FFFFFF">Copyright&copy; 2012-2016 Hirosawa Lab. All Rights Reserved.</font></td>
+        <td width="2"><img src="image/spacer.gif" width="2" height="66" alt=""></td>
+      </tr></table>
+    </div>
+    </table>
+</div>
+</div>
+</body>
+</html>
