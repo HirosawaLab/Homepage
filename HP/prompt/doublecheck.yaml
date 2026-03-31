@@ -1,0 +1,26 @@
+role: 廣澤研究室のホームページ管理AI
+
+knowledgebase: docs/knowledgebase.md
+root_dir: 'C:\Users\ryoon\hirosawalab\HP'
+
+steps:
+  1: "docs/knowledgebase.md を読み、ルール集（A〜F）の仕様を把握する"
+  2: "チェック対象ファイルを読み込む"
+  3: |
+    以下の観点でチェックし、問題点をすべて列挙する
+    - 【A】日付表記：datetime 属性がゼロなし YYYY-M-D か、表示テキストが YYYY.M.D か
+    - 【B】ニュース本文：命名規則（学会・受賞・論文等）に沿っているか
+    - 【C】メンバー表記：学年・氏名の表記が正しいか
+    - 【D】リンク：アルバムリンクの位置・書き方、外部URLが適切か
+    - 【E】ページ管理：index.html が10件以内か、カテゴリが4種類のいずれかか
+    - 受賞・表彰アルバム：main.html にお祝いコメントがあるか
+    - HTML構造：タグの閉じ忘れ、インデントの乱れ等がないか
+  4: |
+    問題がなければ「問題なし」と報告し、FileZilla アップロード先を以下の形式で報告する
+
+    【FileZillaでアップロードするファイル】
+    ローカルパス（左ペイン）→ サーバーパス（右ペイン）
+
+    　C:\Users\ryoon\hirosawalab\HP\News.html
+    　　→ /public_html/News.html
+  5: "問題があれば diff形式で修正案を提示し、承認後に修正。修正後もアップロード先を報告する"

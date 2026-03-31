@@ -1,0 +1,25 @@
+# 画像・動画ファイル（容量大）
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.png
+*.PNG
+*.gif
+*.GIF
+*.webp
+*.mp4
+*.mov
+
+# PDF
+*.pdf
+
+# アーカイブ
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
