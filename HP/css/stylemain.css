@@ -612,6 +612,8 @@ a:hover {
     width: 10vw;
     background-color: #003366;
     border-radius: 10%;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
   }
 
   header .head-middle .hamburger a {
@@ -620,6 +622,7 @@ a:hover {
     height: 100%;
     width: 100%;
     z-index: 10;
+    pointer-events: none;
   }
 
   header .head-middle .hamburger span{
@@ -892,6 +895,8 @@ a:hover {
     width: 10vw;
     background-color: #003366;
     border-radius: 10%;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
   }
 
   header .head-middle .hamburger a {
@@ -900,6 +905,7 @@ a:hover {
     height: 100%;
     width: 100%;
     z-index: 10;
+    pointer-events: none;
   }
 
   header .head-middle .hamburger span{

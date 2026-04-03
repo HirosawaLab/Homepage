@@ -1,5 +1,5 @@
 (function () {
-  document.addEventListener('DOMContentLoaded', function () {
+  function init() {
     var hamburger = document.querySelector('.hamburger');
     if (!hamburger) return;
 
@@ -43,8 +43,8 @@
       document.body.classList.remove('menu-open');
     }
 
-    var hamburgerLink = hamburger.querySelector('a');
-    hamburgerLink.addEventListener('click', function (e) {
+    // <a> に pointer-events:none を設定済みのため hamburger div に直接当たる
+    hamburger.addEventListener('click', function (e) {
       e.preventDefault();
       openMenu();
     });
@@ -55,9 +55,14 @@
       if (e.target === overlay) closeMenu();
     });
 
-    // ドロワー内リンクをクリックしたら閉じる
     drawerNav.querySelectorAll('a').forEach(function (a) {
       a.addEventListener('click', closeMenu);
     });
-  });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 })();
