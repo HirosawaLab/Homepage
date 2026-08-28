@@ -11,6 +11,7 @@ from urllib.parse import unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 VALID_CATEGORIES = {"論文", "学会", "受賞", "その他"}
+UNTRACKED_LINK_ROOTS = {"album", "oldsite"}
 MANAGED_ROOT_HTML = {
     "index.html",
     "Member.html",
@@ -242,7 +243,9 @@ def check_index_news_count(validator: Validator) -> None:
 
 def should_check_target(path: Path, target_value: str) -> bool:
     normalized = target_value.replace("\\", "/")
-    if normalized.startswith(("album/", "./album/")):
+    normalized = normalized.removeprefix("./")
+    first_part = normalized.split("/", 1)[0]
+    if first_part in UNTRACKED_LINK_ROOTS:
         return False
     return True
 

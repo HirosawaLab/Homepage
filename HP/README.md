@@ -285,7 +285,7 @@ python tools/validate_hp.py
 - `index.html` のニュースが10件以内か
 - 管理対象HTMLから参照するローカル画像・PDF・ページが存在するか
 
-`album/` は Git 管理外の大容量フォルダなので、GitHub Actions 上ではリンク存在チェックの対象外。
+`album/` と `oldsite/` は Git 管理外の大容量フォルダなので、GitHub Actions 上ではリンク存在チェックの対象外。
 アルバムの実ファイル確認は、これまで通り作業時にエージェントがローカルで行う。
 
 ---
