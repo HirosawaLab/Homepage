@@ -33,18 +33,32 @@ jobs:
 
       - name: Trust SFTP host key
         env:
-          FTP_HOST: ${{ secrets.FTP_HOST }}
-          FTP_PORT: ${{ secrets.FTP_PORT }}
+          FTP_HOST: ${{ vars.FTP_HOST || secrets.FTP_HOST }}
+          FTP_PORT: ${{ vars.FTP_PORT || secrets.FTP_PORT || '22' }}
         run: |
+          test -n "$FTP_HOST" || (echo "FTP_HOST is not set. Add it to repository Variables or Secrets." && exit 1)
+          test -n "$FTP_PORT" || (echo "FTP_PORT is not set. Add it to repository Variables or Secrets." && exit 1)
           mkdir -p ~/.ssh
           ssh-keyscan -p "$FTP_PORT" "$FTP_HOST" >> ~/.ssh/known_hosts
 
+      - name: Check deployment credentials
+        env:
+          FTP_HOST: ${{ vars.FTP_HOST || secrets.FTP_HOST }}
+          FTP_USERNAME: ${{ vars.FTP_USERNAME || secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_PORT: ${{ vars.FTP_PORT || secrets.FTP_PORT || '22' }}
+        run: |
+          test -n "$FTP_HOST" || (echo "FTP_HOST is not set. Add it to repository Variables or Secrets." && exit 1)
+          test -n "$FTP_USERNAME" || (echo "FTP_USERNAME is not set. Add it to repository Variables or Secrets." && exit 1)
+          test -n "$FTP_PASSWORD" || (echo "FTP_PASSWORD is not set. Add it to repository Secrets." && exit 1)
+          test -n "$FTP_PORT" || (echo "FTP_PORT is not set. Add it to repository Variables or Secrets." && exit 1)
+
       - name: Deploy via SFTP
         env:
-          FTP_HOST: ${{ secrets.FTP_HOST }}
-          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_HOST: ${{ vars.FTP_HOST || secrets.FTP_HOST }}
+          FTP_USERNAME: ${{ vars.FTP_USERNAME || secrets.FTP_USERNAME }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-          FTP_PORT: ${{ secrets.FTP_PORT }}
+          FTP_PORT: ${{ vars.FTP_PORT || secrets.FTP_PORT || '22' }}
         run: |
           lftp -u "$FTP_USERNAME","$FTP_PASSWORD" -p "$FTP_PORT" "sftp://$FTP_HOST" <<'EOF'
           set sftp:auto-confirm yes
