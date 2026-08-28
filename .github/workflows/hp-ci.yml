@@ -6,8 +6,6 @@ on:
       - "HP/**"
       - ".github/workflows/hp-ci.yml"
   push:
-    branches:
-      - main
     paths:
       - "HP/**"
       - ".github/workflows/hp-ci.yml"
