@@ -1,0 +1,53 @@
+name: HP Deploy
+
+on:
+  workflow_run:
+    workflows:
+      - HP CI
+    types:
+      - completed
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy homepage
+    runs-on: ubuntu-latest
+
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+
+    environment:
+      name: production
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+
+      - name: Install deployment tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp openssh-client
+
+      - name: Trust SFTP host key
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_PORT: ${{ secrets.FTP_PORT }}
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -p "$FTP_PORT" "$FTP_HOST" >> ~/.ssh/known_hosts
+
+      - name: Deploy via SFTP
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_PORT: ${{ secrets.FTP_PORT }}
+        run: |
+          lftp -u "$FTP_USERNAME","$FTP_PASSWORD" -p "$FTP_PORT" "sftp://$FTP_HOST" <<'EOF'
+          set sftp:auto-confirm yes
+          mirror -R --dry-run --verbose --parallel=2 --exclude-glob ".gitignore" --exclude-glob "AGENTS.md" --exclude-glob "CLAUDE.md" --exclude-glob "README.md" --exclude-glob "docs/**" --exclude-glob "tools/**" --exclude-glob "prompt/**" --exclude-glob "album/**" --exclude-glob "oldsite/**" HP/ /public_html/
+          bye
+          EOF

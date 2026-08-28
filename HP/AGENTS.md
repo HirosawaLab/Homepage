@@ -87,6 +87,55 @@ AGENTS.md、CLAUDE.md、docs などの運用ドキュメント整備は、ユー
 
 問題があれば修正案を diff で提示し、承認後に修正します。問題がなければ「問題なし」と報告します。
 
+## CI チェック
+
+PR と `main` への push では GitHub Actions の `HP CI` が実行されます。
+
+```bash
+python HP/tools/validate_hp.py
+```
+
+ローカルでは `HP` フォルダ直下で次を実行します。
+
+```bash
+python tools/validate_hp.py
+```
+
+CI は初期導入時点で既存の古い資産に引っかかりすぎないよう、主に現在の更新対象をチェックします。
+
+- 管理対象のルート HTML の基本的なタグ対応
+- `News.html` の最新年セクションと `index.html` の日付表記
+- ニュースカテゴリが `論文`・`学会`・`受賞`・`その他` のいずれか
+- `index.html` のニュース件数が10件以内
+- 管理対象ルート HTML から参照するローカル画像・PDF・ページの存在
+- `album/` と `oldsite/` は Git 管理外のため、CIのリンク存在チェックでは除外する
+
+## CD デプロイ
+
+`main` ブランチで `HP CI` が成功すると、GitHub Actions の `HP Deploy` が起動し、SFTP で `/public_html/` へアップロードします。手動実行も GitHub Actions の `HP Deploy` から可能です。
+
+デプロイに使う Repository Secrets:
+
+- `FTP_HOST`
+- `FTP_USERNAME`
+- `FTP_PORT`
+- `FTP_PASSWORD`
+
+`HP Deploy` は `production` Environment を使います。GitHub 側で required reviewers を設定すると、承認後だけ本番アップロードできます。
+
+公開対象から除外するもの:
+
+- `docs/`
+- `tools/`
+- `AGENTS.md`
+- `CLAUDE.md`
+- `README.md`
+- `prompt/`
+- `album/`
+- `oldsite/`
+
+`album/` は Git 管理外のため、アルバム追加時は従来通り FileZilla 等で手動アップロードしてください。
+
 ## 完了報告
 
 編集完了後は、変更内容の要約と FileZilla のアップロード対象を必ず示します。
