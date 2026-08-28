@@ -110,6 +110,32 @@ CI は初期導入時点で既存の古い資産に引っかかりすぎない�
 - 管理対象ルート HTML から参照するローカル画像・PDF・ページの存在
 - `album/` は Git 管理外のため、CIのリンク存在チェックでは除外する
 
+## CD デプロイ
+
+`main` ブランチで `HP CI` が成功すると、GitHub Actions の `HP Deploy` が起動し、SFTP で `/public_html/` へアップロードします。手動実行も GitHub Actions の `HP Deploy` から可能です。
+
+デプロイに使う Repository Secrets:
+
+- `FTP_HOST`
+- `FTP_USERNAME`
+- `FTP_PORT`
+- `FTP_PASSWORD`
+
+`HP Deploy` は `production` Environment を使います。GitHub 側で required reviewers を設定すると、承認後だけ本番アップロードできます。
+
+公開対象から除外するもの:
+
+- `docs/`
+- `tools/`
+- `AGENTS.md`
+- `CLAUDE.md`
+- `README.md`
+- `prompt/`
+- `album/`
+- `oldsite/`
+
+`album/` は Git 管理外のため、アルバム追加時は従来通り FileZilla 等で手動アップロードしてください。
+
 ## 完了報告
 
 編集完了後は、変更内容の要約と FileZilla のアップロード対象を必ず示します。

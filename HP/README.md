@@ -13,8 +13,9 @@
 4. [手動編集後のダブルチェック](#4-手動編集後のダブルチェック)
 5. [使用例](#5-使用例)
 6. [CIチェック](#6-ciチェック)
-7. [更新後の公開作業](#7-更新後の公開作業)
-8. [ルールと規約](#8-ルールと規約)
+7. [CDデプロイ](#7-cdデプロイ)
+8. [更新後の公開作業](#8-更新後の公開作業)
+9. [ルールと規約](#9-ルールと規約)
 
 ---
 
@@ -289,9 +290,44 @@ python tools/validate_hp.py
 
 ---
 
-## 7. 更新後の公開作業
+## 7. CDデプロイ
 
-AIによる編集が完了したら、変更されたファイルをサーバーにアップロードする。
+`main` ブランチで `HP CI` が成功すると、GitHub Actions の `HP Deploy` が起動し、SFTP で `/public_html/` に自動アップロードする。
+FileZillaで使っている接続先に、GitHub Actions から直接アップロードする仕組み。
+
+GitHub の Repository Secrets には以下を設定する。
+
+| Secret名 | 値 |
+|---|---|
+| `FTP_HOST` | SFTPホスト名またはIPアドレス |
+| `FTP_USERNAME` | SFTPユーザー名 |
+| `FTP_PORT` | 通常は `22` |
+| `FTP_PASSWORD` | SFTPパスワード |
+
+本番反映なので、GitHub の `production` Environment に required reviewers を設定しておくと安全。
+その場合、`HP Deploy` は承認後にアップロードを実行する。
+
+CDで自動アップロードするものは、GitHubで管理されているHTML、CSS、JavaScript、画像、PDFなど。
+内部管理用ファイルや大容量の Git 管理外フォルダはアップロードしない。
+
+除外対象:
+
+- `docs/`
+- `tools/`
+- `AGENTS.md`
+- `CLAUDE.md`
+- `README.md`
+- `album/`
+- `oldsite/`
+
+`album/` は `.gitignore` 対象でGitHub上に存在しないため、アルバム追加時は従来通り FileZilla 等で手動アップロードする。
+
+---
+
+## 8. 更新後の公開作業
+
+AIによる編集が完了し、PRを `main` にマージすると、通常のHTML更新はCDで自動アップロードされる。
+ただし、`album/` のような Git 管理外ファイルは手動アップロードが必要。
 
 | 作業内容 | アップロードするもの |
 |---|---|
@@ -304,12 +340,12 @@ AIによる編集が完了したら、変更されたファイルをサーバー
 | リンク更新 | `Link.html` |
 | 研究紹介更新 | `Research.html`、`Research_EN.html` |
 
-アップロードにはFTPクライアント（WinSCP、FileZilla等）を使用する。
-**変更したファイルのみ**アップロードすれば足りる（全体を上書きしない）。
+手動アップロードにはFTPクライアント（WinSCP、FileZilla等）を使用する。
+**手動でアップロードする場合は変更したファイルのみ**アップロードすれば足りる（全体を上書きしない）。
 
 ---
 
-## 8. ルールと規約
+## 9. ルールと規約
 
 詳細なルールはすべて `docs/knowledgebase.md` のルール集（A〜E）に記載している。
 ここでは特に重要なものを抜粋する。
