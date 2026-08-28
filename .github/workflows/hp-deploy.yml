@@ -48,6 +48,6 @@ jobs:
         run: |
           lftp -u "$FTP_USERNAME","$FTP_PASSWORD" -p "$FTP_PORT" "sftp://$FTP_HOST" <<'EOF'
           set sftp:auto-confirm yes
-          mirror -R --verbose --parallel=2 --exclude-glob ".gitignore" --exclude-glob "AGENTS.md" --exclude-glob "CLAUDE.md" --exclude-glob "README.md" --exclude-glob "docs/**" --exclude-glob "tools/**" --exclude-glob "prompt/**" --exclude-glob "album/**" --exclude-glob "oldsite/**" HP/ /public_html/
+          mirror -R --dry-run --verbose --parallel=2 --exclude-glob ".gitignore" --exclude-glob "AGENTS.md" --exclude-glob "CLAUDE.md" --exclude-glob "README.md" --exclude-glob "docs/**" --exclude-glob "tools/**" --exclude-glob "prompt/**" --exclude-glob "album/**" --exclude-glob "oldsite/**" HP/ /public_html/
           bye
           EOF
