@@ -1,0 +1,30 @@
+name: HP CI
+
+on:
+  pull_request:
+    paths:
+      - "HP/**"
+      - ".github/workflows/hp-ci.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "HP/**"
+      - ".github/workflows/hp-ci.yml"
+
+jobs:
+  validate:
+    name: Validate homepage
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Run HP validation
+        run: python HP/tools/validate_hp.py
